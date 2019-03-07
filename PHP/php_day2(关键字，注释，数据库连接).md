@@ -31,7 +31,8 @@ PHP的注释分为单行注释和多行注释
 --------
 目前常用的PHP版本分为PHP5.x和PHP7.x，两个版本相差巨大，PHP5的连接数据库方法在PHP7.x中早已废弃
 
-####数据库连接(PHP5.x)
+数据库连接(PHP5.x)
+-----
 ```
 <?php
 #防止网页乱码
@@ -53,7 +54,8 @@ while($row=mysql_fetch_assoc($rel))
 }
 ?>
 ```
-####数据库连接(PHP7.x)
+数据库连接(PHP7.x)
+--------
 ```
 <?php
 $servername="localhost";
